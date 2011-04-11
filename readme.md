@@ -1,5 +1,7 @@
-Save Me Read Me
+README for Save Me
 ===============
+Save and search through articles that you bookmark.  I wanted something like pinboard.in or historio.us
+that can save bookmarks and saves the content of the bookmark, allowing you to search through it.
 
 Requirements
 ------------
@@ -11,10 +13,10 @@ Instructions
 -------------
 1.  Put Readability.inc.php in controllers folder
 2.  Run database.sql
-
-###config/autoload.php
-`$autoload['libraries'] = array('database');`
-`$autoload['helper'] = array('url');`
+3.  Edit config/autoload.php
+	3.1  `$autoload['libraries'] = array('database');`
+	3.2  `$autoload['helper'] = array('url');`
+4.  Install Tank Auth
 
 TODO
 ----
