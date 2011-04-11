@@ -13,10 +13,10 @@ Instructions
 -------------
 1.  Put Readability.inc.php in controllers folder
 2.  Run database.sql
-3.  Edit config/autoload.php
-	3.1  `$autoload['libraries'] = array('database');`
-	3.2  `$autoload['helper'] = array('url');`
-4.  Install Tank Auth
+3.  Install Tank Auth
+4.  Edit config/autoload.php
+5.  `$autoload['libraries'] = array('database');`
+6.  `$autoload['helper'] = array('url');`
 
 TODO
 ----
